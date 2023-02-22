@@ -1,0 +1,55 @@
+body {
+    background-image:
+    radial-gradient(50% 30% ellipse at center top, #201e40 0%, rgba(0,0,0,0) 100%),
+    radial-gradient(60% 50% ellipse at center bottom, #261226 0%, #100a1c 100%);
+    background-attachment: fixed;
+}
+
+.container {
+    text-align: center;
+}
+
+.title h1 {
+    color: #6cacc5;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+input {
+    text-align: center;
+    border: 0;
+    border-radius: 5px;
+    color: #6cacc5;
+
+    background-color: rgba(41, 48, 107, 0.6);
+
+    font-size: 30px;
+
+    width: 100px;
+    height: 100px;
+
+    margin: 5px;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+input:hover {
+    background-color: rgba(19, 77, 106, 0.6);
+}
+
+
+#visor {
+    color: #da827e;
+    background-color: transparent;
+
+    text-align: right;
+
+    width: 24.3%;
+
+    cursor: default;
+
+    margin-right: 108px;
+}
