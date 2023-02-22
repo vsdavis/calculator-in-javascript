@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Montinho d areia ♡</h1>
+        </div>
+        
+        <!--Primeira fileira da calc-->
+
+        <input class="limpar" value="C" type="button" onclick="limpar()" />
+
+        <!--Visor da calc-->
+        <input id="visor" type="text" name="visor"  disabled />
+        <br>
+        
+
+        <!--Segunda fileira da calc-->
+        <input value="7" type="button" onclick="preencher(7)" />
+        <input value="8" type="button" onclick="preencher(8)" />
+        <input value="9" type="button" onclick="preencher(9)" />
+        <input value="÷" type="button" onclick="preencher( `/` )" />
+        <br>
+
+        <!--Terceira fileira da calc-->
+        <input value="4" type="button" onclick="preencher(4)" />
+        <input value="5" type="button" onclick="preencher(5)" />
+        <input value="6" type="button" onclick="preencher(6)" />
+        <input value="×" type="button" onclick="preencher( `*` )" />
+        <br>
+
+        <!--Quarta fileira da calc-->
+
+        <input value="3" type="button" onclick="preencher(3)" />
+        <input value="2" type="button" onclick="preencher(2)" />
+        <input value="1" type="button" onclick="preencher(1)" />
+        <input value="−" type="button" onclick="preencher( `-` )" />
+        <br>
+
+        <!--Quinta fileira da calc-->
+        <input value="0" type="button" onclick="preencher(0)" />
+        <input value="." type="button" onclick="preencher( `.` )" />
+        <input value="=" type="button" onclick="calcular()" />
+        <input value="+" type="button" onclick="preencher( `+` )" />
+
+    </div>
+    
+    <script src="calc.js"></script>
+</body>
+</html>
